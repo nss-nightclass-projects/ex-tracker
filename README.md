@@ -47,7 +47,7 @@ Location Address: [Eg: 1 Terminal Dr #325, Nashville, TN 37214]
 Time That Ex Normally Goes: [Pick one of the following options: Morning, Afternoon, Evening, After Dark]
 ```
 - As a user, I should be displayed a search bar. This search bar should filter the results of the cards. On keypress, the text I type in the search bar should be contained in either the location title text or the location address of all cards still displayed.
-- As a user, I should be displayed 4 button options for "time of day." (Options: Morning, Afternoon, Evening, After Dark). These buttons should filter the results down to each location to only display cards that have times corresponding to the button clicked.
+- As a user, I should be displayed 4 button options for "time of day." (Options: Morning, Afternoon, Evening, After Dark). These buttons should filter the results down to each location that has a "Time That Ex Normally Goes" corresponding to the button clicked.
 
 
 ## Technical Requirements
