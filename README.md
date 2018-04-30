@@ -30,6 +30,6 @@ You can get more complex with the JavaScripts modules as needed.
 - Make sure you have the Grunt task running that will build the distribution bundle file.
 
 ## Part 1
-Follow the instructions for [Part 1](https://github.com/nss-nightclass-projects/ex-tracker/blob/master/part-1.md).
+Follow the instructions for [Part 1](./part-1.md).
 
 
