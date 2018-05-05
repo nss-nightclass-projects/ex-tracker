@@ -1,63 +1,64 @@
 {
-  "locations":
-  [{
-    "Name": "Starbucks",
-    "LocationAddress": "1 Terminal Dr #325, Nashville, TN 37214",
-    "TimeThatExNormallyGoes": "morning"
-  },
-  {
-    "Name": "YMCA",
-    "LocationAddress": "1000 Church St, Nashville, TN 37203",
-    "TimeThatExNormallyGoes": "morning"
-  },
-  {
-    "Name": "The Office",
-    "LocationAddress": "9 Lea Ave, Nashville, TN 37210",
-    "TimeThatExNormallyGoes": "morning"
-  },
-  {
-    "Name": "Crema",
-    "LocationAddress": "15 Hermitage Ave, Nashville, TN 37204",
-    "TimeThatExNormallyGoes": "afternoon"
-  },
-  {
-    "Name": "Trader Joe's",
-    "LocationAddress": "3909 Hillsboro Pike, Nashville, TN 37215",
-    "TimeThatExNormallyGoes": "afternoon"
-  },
-  {
-    "Name": "Mall",
-    "LocationAddress": "2126 Abbott Martin Rd, Nashville, TN 37215",
-    "TimeThatExNormallyGoes": "afternoon"
-  },
-  {
-    "Name": "Percy Warner Park",
-    "LocationAddress": "50 Vaughn Rd, Nashville, TN 37221",
-    "TimeThatExNormallyGoes": "evening"
-  },
-  {
-    "Name": "The Belcourt",
-    "LocationAddress": "2102 Belcourt Ave, Nashville, TN 37212",
-    "TimeThatExNormallyGoes": "evening"
-  },
-  {
-    "Name": "Five Points Pizza",
-    "LocationAddress": "1012 Woodland St, Nashville, TN 37206",
-    "TimeThatExNormallyGoes": "evening"
-  },
-  {
-    "Name": "Rosemary",
-    "LocationAddress": "1102 Forrest Ave, Nashville, TN 37206",
-    "TimeThatExNormallyGoes": "afterdark"
-  },
-  {
-    "Name": "Exit/In",
-    "LocationAddress": "2208 Elliston Pl, Nashville, TN 37203",
-    "TimeThatExNormallyGoes": "afterdark"
-  },
-  {
-    "Name": "Cafe Coco",
-    "LocationAddress": "210 Louise Ave, Nashville, TN 37203",
-    "TimeThatExNormallyGoes": "afterdark"
-  }]
+  "locations":[
+    {
+      "Name": "Starbucks",
+      "LocationAddress": "1 Terminal Dr #325, Nashville, TN 37214",
+      "TimeThatExNormallyGoes": "morning"
+    },
+    {
+      "Name": "YMCA",
+      "LocationAddress": "1000 Church St, Nashville, TN 37203",
+      "TimeThatExNormallyGoes": "morning"
+    },
+    {
+      "Name": "The Office",
+      "LocationAddress": "9 Lea Ave, Nashville, TN 37210",
+      "TimeThatExNormallyGoes": "morning"
+    },
+    {
+      "Name": "Crema",
+      "LocationAddress": "15 Hermitage Ave, Nashville, TN 37204",
+      "TimeThatExNormallyGoes": "afternoon"
+    },
+    {
+      "Name": "Trader Joe's",
+      "LocationAddress": "3909 Hillsboro Pike, Nashville, TN 37215",
+      "TimeThatExNormallyGoes": "afternoon"
+    },
+    {
+      "Name": "Mall",
+      "LocationAddress": "2126 Abbott Martin Rd, Nashville, TN 37215",
+      "TimeThatExNormallyGoes": "afternoon"
+    },
+    {
+      "Name": "Percy Warner Park",
+      "LocationAddress": "50 Vaughn Rd, Nashville, TN 37221",
+      "TimeThatExNormallyGoes": "evening"
+    },
+    {
+      "Name": "The Belcourt",
+      "LocationAddress": "2102 Belcourt Ave, Nashville, TN 37212",
+      "TimeThatExNormallyGoes": "evening"
+    },
+    {
+      "Name": "Five Points Pizza",
+      "LocationAddress": "1012 Woodland St, Nashville, TN 37206",
+      "TimeThatExNormallyGoes": "evening"
+    },
+    {
+      "Name": "Rosemary",
+      "LocationAddress": "1102 Forrest Ave, Nashville, TN 37206",
+      "TimeThatExNormallyGoes": "afterdark"
+    },
+    {
+      "Name": "Exit/In",
+      "LocationAddress": "2208 Elliston Pl, Nashville, TN 37203",
+      "TimeThatExNormallyGoes": "afterdark"
+    },
+    {
+      "Name": "Cafe Coco",
+      "LocationAddress": "210 Louise Ave, Nashville, TN 37203",
+      "TimeThatExNormallyGoes": "afterdark"
+    }
+  ]
 }
