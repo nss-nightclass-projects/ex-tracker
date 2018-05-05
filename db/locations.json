@@ -6,9 +6,9 @@
       "TimeThatExNormallyGoes": "morning"
     },
     {
-      "Name": "YMCA",
-      "LocationAddress": "1000 Church St, Nashville, TN 37203",
-      "TimeThatExNormallyGoes": "morning"
+      "Name": "Trader Joe's",
+      "LocationAddress": "3909 Hillsboro Pike, Nashville, TN 37215",
+      "TimeThatExNormallyGoes": "afternoon"
     },
     {
       "Name": "The Office",
@@ -18,11 +18,6 @@
     {
       "Name": "Crema",
       "LocationAddress": "15 Hermitage Ave, Nashville, TN 37204",
-      "TimeThatExNormallyGoes": "afternoon"
-    },
-    {
-      "Name": "Trader Joe's",
-      "LocationAddress": "3909 Hillsboro Pike, Nashville, TN 37215",
       "TimeThatExNormallyGoes": "afternoon"
     },
     {
@@ -41,6 +36,11 @@
       "TimeThatExNormallyGoes": "evening"
     },
     {
+      "Name": "Cafe Coco",
+      "LocationAddress": "210 Louise Ave, Nashville, TN 37203",
+      "TimeThatExNormallyGoes": "night"
+    },
+    {
       "Name": "Five Points Pizza",
       "LocationAddress": "1012 Woodland St, Nashville, TN 37206",
       "TimeThatExNormallyGoes": "evening"
@@ -48,17 +48,17 @@
     {
       "Name": "Rosemary",
       "LocationAddress": "1102 Forrest Ave, Nashville, TN 37206",
-      "TimeThatExNormallyGoes": "afterdark"
+      "TimeThatExNormallyGoes": "night"
     },
     {
       "Name": "Exit/In",
       "LocationAddress": "2208 Elliston Pl, Nashville, TN 37203",
-      "TimeThatExNormallyGoes": "afterdark"
+      "TimeThatExNormallyGoes": "night"
     },
     {
-      "Name": "Cafe Coco",
-      "LocationAddress": "210 Louise Ave, Nashville, TN 37203",
-      "TimeThatExNormallyGoes": "afterdark"
+      "Name": "YMCA",
+      "LocationAddress": "1000 Church St, Nashville, TN 37203",
+      "TimeThatExNormallyGoes": "morning"
     }
   ]
 }
