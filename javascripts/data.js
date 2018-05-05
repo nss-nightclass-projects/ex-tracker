@@ -1,26 +1,17 @@
 const loadLocations = require('./locations');
-// const printToDom = require('./dom');
+const writeLocations = require('./dom');
 
-let locationArray = [];
-
-const success = function () {
-  locationArray = JSON.parse(this.responseText).locations;
-  // printToDom(locationArray);
+const success = function (data) {
+  console.log('data', data);
+  $('#locations').append(writeLocations(data.locations));
 };
 
-const error = function () {
-  console.error('shit broke');
+const error = function (error) {
+  console.error('shit broke', error);
 };
 
 const initializer = () => {
   loadLocations(success, error);
 };
 
-const getLocations = () => {
-  return locationArray;
-};
-
-module.exports = {
-  initializer,
-  getLocations,
-};
+module.exports = initializer;

@@ -1,0 +1,14 @@
+.thumbnail {
+  margin: 30px;
+  height: 160px;
+  padding: 0;
+}
+.row{
+  width: 60%;
+  margin: auto;
+}
+.container {
+  width: 100%;
+}
+
+
