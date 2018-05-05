@@ -23,7 +23,7 @@ Time That Ex Normally Goes: [Pick one of the following options: Morning, Afterno
 
 ## Technical Requirements
 
-- You should be using Bootstrap; your project should look like the mockup displayed.
+- You should be using Bootstrap.
 - You should be using Browserify.
 - You should be using jQuery for
   - DOM manipulation
