@@ -1,11 +1,28 @@
-// const filter = () => {
-//   const morning = $('.')
-// };
+const filterMorning = () => {
+  $('.time').not('.morning').closest('.card').addClass('hide');
+  $('.time').filter('.morning').closest('.card').removeClass('hide');
+};
 
-// const bindEvents = () => {
-//   $('.btn').on('click', (e) => {
-//     console.log('e', e);
-//   });
-// };
+const filterAfternoon = () => {
+  $('.time').not('.afternoon').closest('.card').addClass('hide');
+  $('.time').filter('.afternoon').closest('.card').removeClass('hide');
+};
 
-// module.exports = bindEvents;
+const filterEvening = () => {
+  $('.time').not('.evening').closest('.card').addClass('hide');
+  $('.time').filter('.evening').closest('.card').removeClass('hide');
+};
+
+const filterAfterDark = () => {
+  $('.time').not('.night').closest('.card').addClass('hide');
+  $('.time').filter('.night').closest('.card').removeClass('hide');
+};
+
+const bindEvents = () => {
+  $('#morning-btn').click(filterMorning);
+  $('#afternoon-btn').click(filterAfternoon);
+  $('#evening-btn').click(filterEvening);
+  $('#afterdark-btn').click(filterAfterDark);
+};
+
+module.exports = bindEvents;
