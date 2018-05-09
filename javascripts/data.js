@@ -1,13 +1,16 @@
 const loadLocations = require('./locations');
-const writeLocations = require('./dom');
+const loadEx = require('./ex');
+const dom = require('./dom');
 const events = require('./events');
 
-const success = function (data) {
+const onExLoad = (data) => {
   console.log('data', data);
-  $('#locations').append(writeLocations(data.locations));
-  events.bindEvents();
-  events.searchKeypress();
-  events.searchClick();
+  $('#ex').append(dom.writeEx(data.ex));
+};
+
+const onLocationLoad = (data) => {
+  $('#locations').append(dom.writeLocations(data.locations));
+  events();
 };
 
 const error = function (error) {
@@ -15,7 +18,8 @@ const error = function (error) {
 };
 
 const initializer = () => {
-  loadLocations(success, error);
+  loadLocations(onLocationLoad, error);
+  loadEx(onExLoad, error);
 };
 
 module.exports = initializer;

@@ -20,6 +20,10 @@ const searchClick = () => {
   });
 };
 
+const refresh = () => {
+  $('.card').show();
+};
+
 const filterMorning = () => {
   $('.time').not('.morning').closest('.card').addClass('hide');
   $('.time').filter('.morning').closest('.card').removeClass('hide');
@@ -41,14 +45,13 @@ const filterAfterDark = () => {
 };
 
 const bindEvents = () => {
+  $('#refreshBtn').on('click', refresh);
   $('#morning-btn').click(filterMorning);
   $('#afternoon-btn').click(filterAfternoon);
   $('#evening-btn').click(filterEvening);
   $('#afterdark-btn').click(filterAfterDark);
+  searchKeypress();
+  searchClick();
 };
 
-module.exports = {
-  bindEvents,
-  searchKeypress,
-  searchClick,
-};
+module.exports = bindEvents;
