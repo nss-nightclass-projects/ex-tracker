@@ -1,3 +1,25 @@
+$.expr[':'].icontains = $.expr.createPseudo(function (text) {
+  return function (e) {
+    return $(e).text().toUpperCase().indexOf(text.toUpperCase()) >= 0;
+  };
+});
+
+const searchKeypress = () => {
+  $('#searchBar').keypress(function (e) {
+    const input = $('#searchBar').val();
+    if (e.which === 13) {
+      $(`#locations .card:not(:icontains(${input}))`).hide();
+    }
+  });
+};
+
+const searchClick = () => {
+  $('#submitBtn').click(function (e) {
+    const input = $('#searchBar').val();
+    $(`#locations .card:not(:icontains(${input}))`).hide();
+  });
+};
+
 const filterMorning = () => {
   $('.time').not('.morning').closest('.card').addClass('hide');
   $('.time').filter('.morning').closest('.card').removeClass('hide');
@@ -25,4 +47,8 @@ const bindEvents = () => {
   $('#afterdark-btn').click(filterAfterDark);
 };
 
-module.exports = bindEvents;
+module.exports = {
+  bindEvents,
+  searchKeypress,
+  searchClick,
+};
