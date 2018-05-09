@@ -5,7 +5,9 @@ const events = require('./events');
 const success = function (data) {
   console.log('data', data);
   $('#locations').append(writeLocations(data.locations));
-  events();
+  events.bindEvents();
+  events.searchKeypress();
+  events.searchClick();
 };
 
 const error = function (error) {
