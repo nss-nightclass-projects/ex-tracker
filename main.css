@@ -1,14 +1,28 @@
 .thumbnail {
-  margin: 30px;
-  height: 160px;
-  padding: 0;
+  margin: 20px;
+  height: 200px;
+  width: 265px;
 }
-.row{
+
+.row {
   width: 60%;
   margin: auto;
 }
+
 .container {
   width: 100%;
+  position: relative;
+}
+.form-group {
+  width: 60%;
+  margin: 0 auto;
+}
+#form {
+  width: 50%;
+  margin: 25px auto;
 }
 
+marquee {
+  width: 30%;
+}
 

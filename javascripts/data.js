@@ -1,9 +1,11 @@
 const loadLocations = require('./locations');
 const writeLocations = require('./dom');
+const events = require('./events');
 
 const success = function (data) {
   console.log('data', data);
   $('#locations').append(writeLocations(data.locations));
+  events();
 };
 
 const error = function (error) {
