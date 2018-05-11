@@ -4,7 +4,7 @@ const dom = require('./dom');
 const events = require('./events');
 
 const onExLoad = (data) => {
-  console.log('data', data);
+  console.log('data', data.ex);
   $('#ex').append(dom.writeEx(data.ex));
 };
 

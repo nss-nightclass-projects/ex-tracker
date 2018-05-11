@@ -26,3 +26,13 @@ marquee {
   width: 30%;
 }
 
+.ex-card {
+  height: 380px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#ex img {
+  height: 250px;
+  width: 180px;
+}

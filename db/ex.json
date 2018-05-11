@@ -1,8 +1,8 @@
 {
-  "ex": {
+  "ex": [{
     "Image": "https://mynexthair.files.wordpress.com/2011/04/jamie-dornan.jpg",
     "Name": "Christian",
     "Age": "27",
     "Flaws": "bad sense of humor"
-  }
+  }]
 }
