@@ -21,9 +21,8 @@
   width: 50%;
   margin: 25px auto;
 }
-
-marquee {
-  width: 30%;
+#location-card {
+  height: 100px;
 }
 
 .ex-card {
@@ -35,4 +34,5 @@ marquee {
 #ex img {
   height: 250px;
   width: 180px;
+  padding-top: 15px;
 }

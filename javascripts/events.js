@@ -46,10 +46,10 @@ const filterAfterDark = () => {
 
 const bindEvents = () => {
   $('#refreshBtn').on('click', refresh);
-  $('#morning-btn').click(filterMorning);
-  $('#afternoon-btn').click(filterAfternoon);
-  $('#evening-btn').click(filterEvening);
-  $('#afterdark-btn').click(filterAfterDark);
+  $('#morning-btn').on('click', filterMorning);
+  $('#afternoon-btn').on('click', filterAfternoon);
+  $('#evening-btn').on('click', filterEvening);
+  $('#afterdark-btn').on('click', filterAfterDark);
   searchKeypress();
   searchClick();
 };
