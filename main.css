@@ -1,0 +1,38 @@
+.thumbnail {
+  margin: 20px;
+  height: 200px;
+  width: 265px;
+}
+
+.row {
+  width: 60%;
+  margin: auto;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+}
+.form-group {
+  width: 60%;
+  margin: 0 auto;
+}
+#form {
+  width: 50%;
+  margin: 25px auto;
+}
+#location-card {
+  height: 100px;
+}
+
+.ex-card {
+  height: 380px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#ex img {
+  height: 250px;
+  width: 180px;
+  padding-top: 15px;
+}
