@@ -32,4 +32,7 @@ You can get more complex with the JavaScripts modules as needed.
 ## Part 1
 Follow the instructions for [Part 1](./part-1.md).
 
+## Part 2
+Follow the instructions for [Part 2](./part-2.md).
+
 
