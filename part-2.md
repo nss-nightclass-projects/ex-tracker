@@ -26,7 +26,7 @@ List of ex's names associated with this location
 - As a user, when I click on one of the ex's cards, the DOM is completely rewritten (as though I am on a new page). This new DOM should have the info for the single ex I clicked on, cards for the locations for the ex I am currently viewing, and a back button.
 - If I click on the back button, I should then be viewing "All Locations/Exs View"
 - This page should look like this mockup:
-![]()
+![Single Ex View Mockup](./Part2-single-ex-view.png)
 
 ### Data Structure
 
