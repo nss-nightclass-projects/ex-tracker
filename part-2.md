@@ -17,6 +17,7 @@ Location Image
 Name: [Eg: Starbucks]
 Location Address: [Eg: 1 Terminal Dr #325, Nashville, TN 37214]
 Time That Ex Normally Goes: [Pick one of the following options: Morning, Afternoon, Evening, After Dark]
+List of ex's names associated with this location
 ```
 - As a user, I should be displayed a search bar. This search bar should filter the results of the cards. On keypress, the text I type in the search bar should be contained in the location title text, the location address, or one of the ex's names of all cards still displayed.
 - As a user, I should be displayed 4 button options for "time of day." (Options: Morning, Afternoon, Evening, After Dark). These buttons should filter the results down to each location that has a "Time That Ex Normally Goes" corresponding to the button clicked.
